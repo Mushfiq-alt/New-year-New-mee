@@ -1,3 +1,5 @@
+/* Header Styles */
+
 .header{
     background-image: url("../images/banner/banner3.png");
     position: absolute;
@@ -44,4 +46,133 @@
     background-color: #FFFFFF;
     border-radius: 5px;
     margin-left: 1210px;
+}
+
+/* My Failure list section styles */
+
+.section-1{
+    margin-top: 939px;
+    display: flex;
+}
+
+.fail-image{
+    margin-top: 130px;
+    margin-left: 206px;
+}
+
+.describeFail-list{
+    width: 416px;
+    height: 400px;
+    margin-top: 370px;
+    margin-left: 87px;
+}
+
+.fail-headline{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+    line-height: 47px;
+}
+
+.fail-Description{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+}
+
+.failure-li{
+    list-style: none;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.li-1{
+    margin-top: 16px;
+}
+
+.li-2{
+    margin-top: 8px;
+}
+.li-3{
+    margin-top: 8px;
+}
+.li-4{
+    margin-top: 8px;
+}
+.li-5{
+    margin-top: 8px;
+}
+
+/* My Plan Section style */
+.section2-title{
+    margin-top: 200px;
+}
+.section2-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.plan-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    text-align: center;
+}
+
+.plan-description{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.magic{
+    background-image: url("../images/watch.png"), url("../images/gradient1.png");
+    width: 1140px;
+    height: 300px;
+    margin-top: 130px;
+    background-blend-mode: overlay;
+    margin-left: 230px;
+
+}
+
+.magic-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-right: 617px;
+    padding-top: 59px;
+    padding-bottom: 147px;
+    padding-left: 64px;
+}
+
+.btn-secondary{
+    font-family: 'Work Sans';
+        font-weight: 600;
+        font-size: 20px;
+        padding: 20px 25px;
+        border: 0px;
+        border-radius: 10px;
+        color: #005FAC;
+        background-color: #FFFFFF;
+        margin-left: 60px;
+        margin-top: 30px;
+        
 }
