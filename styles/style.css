@@ -1,3 +1,7 @@
+* {
+    font-family: Work Sans;
+}
+
 /* Header Styles */
 
 .header{
@@ -165,14 +169,128 @@
 
 .btn-secondary{
     font-family: 'Work Sans';
-        font-weight: 600;
-        font-size: 20px;
-        padding: 20px 25px;
-        border: 0px;
-        border-radius: 10px;
-        color: #005FAC;
-        background-color: #FFFFFF;
-        margin-left: 60px;
-        margin-top: 30px;
-        
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: 0px;
+    border-radius: 10px;
+    color: #005FAC;
+    background-color: #FFFFFF;
+    margin-left: 60px;
+    margin-top: 30px;    
+}
+
+/* About section style */
+.about {
+    margin-top: 130px;
+    background: #1A66A2;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 200px 200px 0 200px;
+    
+
+
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.section-description {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about .info-title {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.section-title{
+    color: #FFFFFF;
+}
+
+/* Footer Styling */
+
+.right-footer {
+    margin-left: 160px;
+    margin-top: 45px;
+
+}
+.contact-container{
+    display: flex;
+    margin-top: 100px;
+    gap: 200px;
+    background: #151414;
+    
+}
+
+.left-footer{
+    margin-left: 200px;
+}
+
+.footer-title1{
+    color: #F8F8F8;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-description1{
+    font-family: 'Work Sans';
+    color: #F8F8F8;
+    font-weight: 400;
+    font-size: 16px;
+    width: 485px;
+    height: 78px;
+    
+}
+
+.footer-description2{
+    color: #F8F8F8;
+}
+
+.footer-description3{
+    color: #F8F8F8;
+}
+
+.footer-title2{
+    color: #F8F8F8;
+}
+
+.right-footer{
+    margin-left: 160px;
+    
+}
+
+.right-footer input[type="text"] {
+    padding: 21px 158px 21px 21px;
+    background-color: #151414;
+    border: 1px solid #F8F8F8;
+}
+
+.btn-3rd{
+    margin-top: 16px;
+    color: #FFFFFF;
+    background-color: #005FAC;
+    padding: 20px 36px;
+    border: 0;
+    border-radius: 10px;
 }
